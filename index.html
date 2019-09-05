@@ -15,49 +15,62 @@
 </head>
 
 <body>
-
-  <header>
+  <div class="navbox">
     <nav>
-      <div class="navleft" name="navleft">
-        <a href="#" class="navleft">About</a> 
-        <a href="#" class="navleft">Store</a>
+      <div class="navleft">
+        <ul>
+          <li><a href="#" class="navleft">About</a></li> 
+          <li><a href="#" class="navleft">Store</a></li>
       </div>
 
-      <div class="navright" name="navright">
-        <a href="#" class="navright">Gmail</a>
-        <a href="#" class="navright">Images</a>
-        <a href="#" class="navright" title="Google apps" role="button"></a>
-        <form class="navright">
+      <div class="navright">
+        <li><a href="#" class="navright">Gmail</a></li>
+        <li><a href="#" class="navright">Images</a></li>
+        <li><a href="#" class="navright" title="Google apps" role="button"></a></li>
+        <li><form class="navright">
           <input type="submit" value="Sign in">
-        </form>
+        </form></li>
+        </ul>
       </div>
     </nav>
-  </header>
+  
+  </div>
 
   <main>
-    <div id="logo" name="logo">
-      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" width="272" height="92" alt="Google Logo">
+    <div id="logo">
+      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" id="logo" width="272" height="92" alt="Google Logo">
     </div>
 
-    <div id="searchbar" name="searchbar">
-      <form>
+    <div id="searchbar">
+      <form id="searchbar" >
         <input type="text">
     </div>    
-    <div class="searchbuttons" name="searchbuttons">
-      <input type="submit" value="Google Search">
-      <input type="submit" value="I'm Feeling Lucky">
+    <div class="searchbuttons">
+      <input type="submit" value="Google Search" class="searchbuttons">
+      <input type="submit" value="I'm Feeling Lucky" class="searchbuttons">
     </div>
       </form>
   </main>
 
-  <footer>
-    <div class="business" name="business">
-        <a href="#">Advertising</a> <a href="#">Business</a> <a href="#">How Search works</a>
-    </div>
+  <footer class="navbottom">
+    <div class="navbottom">
+      <nav>
+        <div class="business">
+          <ul>
+            <li><a href="#" class="business">Advertising</a></li>
+            <li><a href="#" class="business">Business</a></li>
+            <li><a href="#" class="business">How Search works</a></li>
+        </div>
 
-    <div class="privacy" name="privacy">
-        <a href="#">Privacy</a> <a href="#">Terms</a> <a href="#">Settings</a>
+        <div class="privacy">
+          <li><a href="#" class="privacy">Privacy</a></li>
+          <li><a href="#" class="privacy">Terms</a></li> 
+          <li><a href="#" class="privacy">Settings</a></li>
+          </ul>
+        </div>
+      </nav>
     </div>
+    
   </footer>
 
 </body>
